@@ -6612,14 +6612,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!81 &205408759
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205805557}
-  m_Enabled: 1
 --- !u!4 &205769685
 Transform:
   m_ObjectHideFlags: 0
@@ -6668,7 +6660,6 @@ GameObject:
   m_Component:
   - component: {fileID: 205769685}
   - component: {fileID: 207312343}
-  - component: {fileID: 205408759}
   - component: {fileID: 217810865}
   - component: {fileID: 1170899810}
   m_Layer: 0
@@ -18324,7 +18315,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Floor 3
 
-    Compelted'
+    Completed'
 --- !u!222 &616165485
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23924,6 +23915,14 @@ MonoBehaviour:
   pistolImage: {fileID: 266897978}
   realMachineGun: {fileID: 995491609}
   AK47Image: {fileID: 1315451560}
+  t1: 0
+  t2: 0
+  t3: 0
+  t4: 0
+  f1: 0
+  f2: 0
+  f3: 0
+  f4: 0
 --- !u!1 &794359941
 GameObject:
   m_ObjectHideFlags: 0
@@ -27911,7 +27910,6 @@ GameObject:
   m_Component:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
-  - component: {fileID: 963194226}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -27919,14 +27917,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &963194226
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -28860,6 +28850,7 @@ MonoBehaviour:
   EmptyAmmoSound: {fileID: 107062474}
   isFiring: 0
   isReloading: 0
+  isReaload: 0
   targetDistance: 0
   damageAmount: 10
 --- !u!95 &995491611

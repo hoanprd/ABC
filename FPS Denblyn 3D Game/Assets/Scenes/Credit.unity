@@ -653,8 +653,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tu Hoang\n\nNguyen Duy Hoan\n\nNguyen Duy Hoan \n\nNguyen Duy Hoan\n\nJimmy
-    Vegas\nYurowm"
+  m_Text: "Bui Quang Khai\n\nBui Quang Khai\n\nBui Quang Khai \n\nBui Quang Khai\n\nhoanprd\nYurowm"
 --- !u!222 &1564225909
 CanvasRenderer:
   m_ObjectHideFlags: 0

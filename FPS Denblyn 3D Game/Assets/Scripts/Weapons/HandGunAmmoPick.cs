@@ -12,7 +12,7 @@ public class HandGunAmmoPick : MonoBehaviour
 
     void Update()
     {
-        /*if (IsPickUp == true && Input.GetKeyDown(KeyCode.F))
+        if (IsPickUp == true && Input.GetKeyDown(KeyCode.F))
         {
             fakeAmmoClip.SetActive(false);
             ammoPickUpSound.Play();
@@ -20,9 +20,9 @@ public class HandGunAmmoPick : MonoBehaviour
             GlobalAmmo.handgunAmmo += 7;
             Message.SetActive(false);
             IsPickUp = false;
-        }*/
+        }
 
-        if (IsPickUp == true && GlobalWeapons.PickUpItem == true)
+        /*if (IsPickUp == true && GlobalWeapons.PickUpItem == true)
         {
             GlobalWeapons.PickUpItem = false;
             fakeAmmoClip.SetActive(false);
@@ -31,7 +31,7 @@ public class HandGunAmmoPick : MonoBehaviour
             GlobalAmmo.handgunAmmo += 7;
             Message.SetActive(false);
             IsPickUp = false;
-        }
+        }*/
     }
 
     private void OnTriggerEnter(Collider other)

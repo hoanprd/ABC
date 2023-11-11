@@ -14,7 +14,7 @@ public class HandGunPickUp : MonoBehaviour
 
     void Update()
     {
-        /*if(IsPickUp == true && Input.GetKeyDown(KeyCode.F))
+        if(IsPickUp == true && Input.GetKeyDown(KeyCode.F))
         {
             fakeHandGun.SetActive(false);
             realHandGun.SetActive(true);
@@ -24,9 +24,9 @@ public class HandGunPickUp : MonoBehaviour
             Message.SetActive(false);
             IsPickUp = false;
             GlobalWeapons.HandGun = 1;
-        }*/
+        }
 
-        if (IsPickUp == true && GlobalWeapons.PickUpItem == true)
+        /*if (IsPickUp == true && GlobalWeapons.PickUpItem == true)
         {
             GlobalWeapons.PickUpItem = false;
             fakeHandGun.SetActive(false);
@@ -37,7 +37,7 @@ public class HandGunPickUp : MonoBehaviour
             Message.SetActive(false);
             IsPickUp = false;
             GlobalWeapons.HandGun = 1;
-        }
+        }*/
     }
 
     private void OnTriggerEnter(Collider other)

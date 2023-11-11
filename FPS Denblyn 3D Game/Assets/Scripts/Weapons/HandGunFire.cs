@@ -31,7 +31,7 @@ public class HandGunFire : MonoBehaviour
         GW.f1 = isFiring;
         GW.f2 = isReloading;
 
-        /*if (Input.GetButtonDown("Fire1") && FC.StopAction == false)
+        if (Input.GetButtonDown("Fire1") && FC.StopAction == false)
         {
             if (GlobalAmmo.CurhandgunAmmo < 1)
             {
@@ -45,9 +45,9 @@ public class HandGunFire : MonoBehaviour
         else if (Input.GetKeyUp(KeyCode.R) && GlobalAmmo.CurhandgunAmmo < 7 && isReloading == false && FC.StopAction == false)
         {
             StartCoroutine(ReloadHGAmmo());
-        }*/
+        }
 
-        if (GlobalWeapons.Shoot == true && FC.StopAction == false)
+        /*if (GlobalWeapons.Shoot == true && FC.StopAction == false)
         {
             GlobalWeapons.Shoot = false;
 
@@ -64,7 +64,7 @@ public class HandGunFire : MonoBehaviour
         {
             GlobalWeapons.Reload = false;
             StartCoroutine(ReloadHGAmmo());
-        }
+        }*/
     }
 
     IEnumerator FiringHandGun()

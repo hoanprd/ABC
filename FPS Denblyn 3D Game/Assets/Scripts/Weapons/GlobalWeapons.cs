@@ -127,7 +127,7 @@ public class GlobalWeapons : MonoBehaviour
             AK47Image.SetActive(false);
         }
 
-        Shoot = CrossPlatformInputManager.GetButton("Shoot");
+        //Shoot = CrossPlatformInputManager.GetButton("Shoot");
     }
 
     public void ReloadButton()

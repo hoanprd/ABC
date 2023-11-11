@@ -15,7 +15,7 @@ public class MachineGunFire : MonoBehaviour
     public AudioSource EmptyAmmoSound;
     public bool isFiring = false;
     public bool isReloading = false;
-    public bool isShoot = false;
+    //public bool isShoot = false;
     public bool isReaload = false;
     public float targetDistance;
     public int damageAmount = 10;
@@ -33,7 +33,7 @@ public class MachineGunFire : MonoBehaviour
         GW.f3 = isFiring;
         GW.f4 = isReloading;
 
-        /*if (Input.GetButton("Fire1") && FC.StopAction == false)
+        if (Input.GetButton("Fire1") && FC.StopAction == false)
         {
             if (GlobalAmmo.CurmachinegunAmmo < 1)
             {
@@ -47,9 +47,9 @@ public class MachineGunFire : MonoBehaviour
         else if (Input.GetKeyUp(KeyCode.R) && GlobalAmmo.CurmachinegunAmmo < 20 && isReloading == false && FC.StopAction == false)
         {
             StartCoroutine(ReloadMGAmmo());
-        }*/
+        }
 
-        if (GlobalWeapons.Shoot == true && FC.StopAction == false)
+        /*if (GlobalWeapons.Shoot == true && FC.StopAction == false)
         {
             GlobalWeapons.Shoot = false;
 
@@ -66,7 +66,7 @@ public class MachineGunFire : MonoBehaviour
         {
             GlobalWeapons.Reload = false;
             StartCoroutine(ReloadMGAmmo());
-        }
+        }*/
     }
 
     IEnumerator FiringHandGun()
